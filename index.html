@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>URL Redirect</title>
+    <script>
+        window.onload = function () {
+            var url = window.location.href;
+            
+            if (url === "https://gitdev.me/Url55/gitdev.me") {
+                window.location.href = "https://gitdev.me";
+            } else if (url === "https://gitdev.me/Url55/google.com") {
+                window.location.href = "https://www.google.com";
+            }
+        }
+    </script>
+</head>
+<body>
+    <p>If you are not redirected, <a href="https://google.com">click here</a>.</p>
+</body>
+</html>
